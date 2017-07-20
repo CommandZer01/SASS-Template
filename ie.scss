@@ -1,0 +1,36 @@
+/******************************************************************
+Site Name: SITE NAME HERE
+Author: 
+
+Stylesheet: IE Stylesheet
+
+This is where all the IE stuff goes cause you know IE is like 
+a very special needs browser
+
+******************************************************************/
+
+
+/******************************************************************
+IMPORTS & DEPENDENCIES
+Remember, all the BASE styles are called already since IE can
+read those. Below, we need to import only the stuff IE can't
+understand (what's inside the media queries). We also need to
+import the mixins file so SASS can understand the variables.
+******************************************************************/
+
+@import "partials/variables"; // import variables
+@import "partials/typography"; // import typography
+@import "partials/mixins"; // import mixins
+@import "partials/ie_grid"; // import grid
+
+// This imports everything from the Media Queries. 
+
+//phablet 
+@import "breakpoints/481up";
+
+//mini tablets
+@import "breakpoints/768up";
+
+//desktop
+@import "breakpoints/1030up";
+

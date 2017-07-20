@@ -1,0 +1,69 @@
+/******************************************************************
+Site Name:
+Author: 
+
+Stylesheet: Base
+
+This is the base stylesheet, you always want to start from the bottom and work your way up.
+mobile first then desktop. its easier to expand than it is to shrink.
+
+******************************************************************/
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: $normal;
+}
+
+h1 {
+    color: $white;
+    padding-left: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    color: $link-color;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: $fontstandard;
+}
+
+p,
+li {
+    font-size: $fontstandard;
+    color: $dark-grey;
+    font-weight: $normal;
+}
+
+a {
+    color: $link-color;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
